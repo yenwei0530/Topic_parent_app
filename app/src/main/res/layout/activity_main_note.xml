@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main_note">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="親愛的家長 這個app幫助孩子覺察自己的情緒，您的付出對孩子了解自己情緒有很大的幫助，請您在第一次登錄時填寫【基本資料】、【孩子的情緒行為】，第二次之後的登錄請填寫【孩子最近的表現】。您填寫【基本資料】、【孩子的情緒行為】完畢，孩子可以得到二個蘋果，第二次之後的填寫(僅填寫【孩子最近的表現】)，每次孩子可以得到一個蘋果，同時孩子每次使用app會得到一個蘋果，當孩子集到五個蘋果，可以向潛能班教師兌換禮物! "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用海報製作"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
