@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/personal"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="基本資料" />
+        <item
+            android:id="@+id/child_emotions"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="孩子情緒行為(僅需填寫一次)" />
+        <item
+            android:id="@+id/child_performance"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="孩子最近表現" />
+        <item
+            android:id="@+id/interactive"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="您與孩子互動" />
+        <item
+            android:id="@+id/note"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="使用說明" />
+    </group>
+</menu>
