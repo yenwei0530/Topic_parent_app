@@ -84,6 +84,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.393" />
 
+    <EditText
+        android:id="@+id/signup_stu_number"
+        android:layout_width="390dp"
+        android:layout_height="45dp"
+        android:hint="請輸入孩子的學號"
+        app:layout_constraintBottom_toTopOf="@+id/signup_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_stu_number_text"
+        app:layout_constraintVertical_bias="0.141" />
+
     <TextView
         android:id="@+id/signup_pw_text"
         android:layout_width="wrap_content"
@@ -97,4 +109,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signup_id_text"
         app:layout_constraintVertical_bias="0.007" />
+
+    <TextView
+        android:id="@+id/signup_stu_number_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:layout_marginBottom="290dp"
+        android:text="孩子學號："
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/back_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/signup_pw_text"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
